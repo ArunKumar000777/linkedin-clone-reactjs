@@ -12,8 +12,10 @@ const Header = () => {
         <header className="bg-primary-bg-color h-14 flex px-52 justify-between">
             <div className="flex gap-2 items-center h-12">
                 <img src={LinkedinIcon} alt="logo" className="w-6" />
-                <div className="bg-input-bg-color flex items-center rounded-sm">
-                    <SearchIcon style={{ fontSize: "16px", marginLeft: "10px" }} />
+                <div className="bg-input-bg-color flex items-center rounded-sm justify-center">
+                    <div className="flex items-center p-1">
+                        <SearchIcon style={{ fontSize: "20px", marginLeft: "10px", color: "gray" }} />
+                    </div>
                     <input type="text" className="bg-transparent bg-input-bg-color w-64 h-8" placeholder="Search" />
                 </div>
             </div>
