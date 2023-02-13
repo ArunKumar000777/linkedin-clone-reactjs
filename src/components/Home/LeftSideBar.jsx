@@ -3,11 +3,8 @@ import bg from "../../assets/background.png";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 const LeftSideBar = () => {
     return (
-        <div className="flex flex-col gap-2">
-            <div
-                className=" bg-primary-bg-color w-56 relative rounded-md border-b-gray-400 border-2"
-                style={{ height: "335px" }}
-            >
+        <div className="lg:flex lg:flex-col gap-2 hidden lg:block">
+            <div className=" bg-primary-bg-color w-56 relative rounded-md border-b-gray-400 border-2 h-[345px]">
                 <div className="w-full">
                     <div className="w-full h-14">
                         <img src={bg} alt="bg" className="w-full h-full object-cover rounded-t-md" />
@@ -49,7 +46,7 @@ const LeftSideBar = () => {
             </div>
             {/* bottom box */}
             <div
-                className=" bg-primary-bg-color w-56 relative rounded-md border-b-gray-400 border-2"
+                className=" sticky top-16 bg-primary-bg-color w-56  rounded-md border-b-gray-400 border-2"
                 style={{ height: "335px" }}
             >
                 <div className="ml-4 mt-2 flex flex-col gap-4">

@@ -9,6 +9,9 @@ module.exports = {
                 "primary-bg-color": "rgb(255,255,255)",
                 "input-bg-color": "rgb(238,243,248)",
             },
+            // width: {
+            //     128: "35rem",
+            // },
         },
     },
     plugins: [],
